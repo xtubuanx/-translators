@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<script src="/shared/js/gtag.js"></script>-->
+  <title>Translators</title>
+  <meta name="viewport" content="width=device-width">
+  <meta content="telephone=no" name="format-detection">
+  <meta name="description" content="●●●">
+  <meta property="og:title" content="●●●">
+  <meta property="og:description" content="●●●">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="●●●">
+  <meta property="og:url" content="●●●">
+  <meta property="og:site_name" content="●●●">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="shared/css/common.css">
+
+</head>
+<body class="p-body">
+<header role="banner" class="l-header">
+  <div class="p-header">
+	<div class="l-container">
+	  <div class="l-header__logo"><a class="p-logo" href="#">Translators</a></div>
+	  <div class="l-header__language">
+		<ul class="p-language">
+		  <li class="p-language__item">日本語</li>
+		  <li class="p-language__item">English</li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+</header>
+<main role="main" class="l-main">
+  <div class="l-container">
+
+	<section class="l-divide">
+	  <div class="p-radioGroup" data-toggle="buttons">
+		<label class="p-radioGroup__button active"><input type="radio" name="trans-language" id="option1" autocomplete="off" checked>日本語→英語</label>
+		<label class="p-radioGroup__button"><input type="radio" name="trans-language" id="option2" autocomplete="off">英語→日本語</label>
+	  </div>
+
+	<textarea class="p-textarea--source" placeholder="英語に翻訳したい文章を入力してください（●●字以内）"></textarea>
+	<button type="submit" class="p-button--submit">翻訳</button>
+
+	</section>
+
+	<section class="p-result">
+	  <label for="resultInputGoogle" class="p-result__label">Google</label>
+	  <div class="p-result__clipboard">
+		<textarea class="p-textarea--result" id="resultInputGoogle">It is up to you whether to believe or not to believe.</textarea>
+		<button class="p-clipboard__button" data-original-title="テキストをコピー">コピー</button>
+	  </div>
+	</section>
+	<section class="p-result">
+	  <label for="resultInputBing" class="p-result__label">Bing</label>
+	  <div class="p-result__clipboard">
+	  <textarea class="p-textarea--result" id="resultInputBing">It is up to you whether to believe or not to believe.</textarea>
+		<button class="p-clipboard__button" data-original-title="テキストをコピー">コピー</button>
+	  </div>
+	</section>
+	<section class="p-result">
+	  <label for="resultInputWatson" class="p-result__label">Watson</label>
+	  <div class="p-result__clipboard">
+	  <textarea class="p-textarea--result" id="resultInputWatson">It is up to you whether to believe or not to believe.</textarea>
+		<button class="p-clipboard__button" data-original-title="テキストをコピー">コピー</button>
+	  </div>
+	</section>
+
+	<div class="p-alert--success" role="alert">
+	  コピーしました
+	</div>
+	<p class="p-heading--share">この訳をシェアして添削してもらおう</p>
+
+
+	<div class="l-divide">
+	  <textarea class="p-textarea--source" id="resultInputShare" placeholder="ベストだと思う翻訳結果をペーストするか、オリジナルの英訳を入力してシェアしよう"></textarea>
+	</div>
+
+
+	<div class="l-divide">
+	  <button type="button" class="p-button--situation">シチュエーションを追加<br>（オプション）</button>
+	</div>
+	<div class="l-divide">
+	  <label for="resultInputSituation">シチュエーション（オプション）</label>
+	  <textarea class="p-textarea--source" id="resultInputSituation" placeholder="例：ビジネスのメール、友達との会話、大学のレポート など"></textarea>
+	</div>
+
+	<div class="l-divide">
+	  <button type="submit" class="p-button--share" disabled>この訳をシェアして<br>添削してもらおう</button>
+	  <button type="submit" class="p-button--share">この訳をシェアして<br>添削してもらおう</button>
+	</div>
+
+
+  </div>
+</main>
+<footer class="my-5 pt-5 text-muted text-center">
+  <small>© 2018 Translators @ 関西webアプリ作ろう会</small>
+
+</footer>
+</body>
+</html>
